@@ -2,4 +2,5 @@
 n = []
 for i in range(45):
     if i % 2 == 0:
-        print(i)
+        n.append(i)
+print(n)
